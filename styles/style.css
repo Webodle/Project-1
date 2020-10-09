@@ -5,11 +5,21 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: #0D1840;
+  margin-left: 55px;
+
+}
+
+
+/*........Bishal..................................................*/
 .accountbox{
   position: absolute;
   top: 10px;
   right: 10px;
+
 }
+
 
 .messegebox {
   position: absolute;
@@ -41,4 +51,151 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
 }
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+/*Prabin.............................*/
+
+.container {
+  width: 98%;
+  height: 100vh;
+  padding: 50px;
+  float: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 0;
+}
+
+
+.container .container__main {
+  width: 990px;
+  display: -ms-grid;
+  display: grid;
+  padding: 20px;
+  grid-gap: 20px;
+  color: white;
+  -ms-grid-columns: 6fr 5fr 4fr 3fr;
+      grid-template-columns: 6fr 5fr 4fr 3fr;
+      grid-template-areas: "main-item1 main-item2 main-item3 main-item4"
+ "main-item1 main-item2 main-item3 .         "
+ "main-item1 main-item2 .          .         "
+ "main-item1 .          .          .         ";
+}
+
+.container .container__main .main__item {
+  width: 259px;
+  background-color: #031041;
+  -webkit-text-decoration-color: aliceblue;
+          text-decoration-color: aliceblue;
+  border: 9px solid #0D2044;
+  border-radius: 13px;
+  padding: 20px;
+}
+
+.container .container__main .main__item1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  grid-area: main-item1;
+}
+
+.container .container__main .main__item2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
+  grid-area: main-item2;
+}
+
+.container .container__main .main__item3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: main-item3;
+}
+
+.container .container__main .main__item4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: main-item4;
+}
+
+.container .container__comment {
+  width: auto;
+  height: 300px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 13px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .container__comment p {
+  float: left;
+}
+
+.container .container__comment .box {
+  background-color: #0D1855;
+  width: 990px;
+  height: 90px;
+  border: 5px solid #0D2044;
+  border-radius: 13px;
+}
+
+
+
+/*Seejn's.........................*/
+.sidebar {
+  height: 100vh;
+  width: 55px;
+  background: #0D1840;
+  padding: 20px 0 5px 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      position: fixed;
+        left: 0;
+  top:0;
+}
+
+.sidebar svg {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.sidebar__container1 {
+  height: 38%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
