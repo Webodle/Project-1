@@ -7,7 +7,55 @@
 
 body {
   background-color: #0D1840;
+  margin-left: 55px;
+
 }
+
+
+/*........Bishal..................................................*/
+.accountbox{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+
+
+.messegebox {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.messegebox #close--msg {
+  display: none;
+}
+
+.messegepopup {
+  display: none;
+  position: absolute;
+  height: 400px;
+  width: 250px;
+  bottom: 45px;
+  right: 10px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 12, 34, 0.98)), color-stop(55.27%, rgba(26, 43, 102, 0.438352)), to(rgba(72, 106, 227, 0)));
+  background: linear-gradient(180deg, rgba(6, 12, 34, 0.98) 0%, rgba(26, 43, 102, 0.438352) 55.27%, rgba(72, 106, 227, 0) 100%);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.messegepopup p {
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+
+
+
+/*Prabin.............................*/
 
 .container {
   width: 98%;
@@ -18,31 +66,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 0;
-
-  margin-left: 55px;
 }
 
-.sidebar {
-  height: 100vh;
-  width: 55px;
-  background: #0D1840;
-  padding: 20px 0 5px 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
 
 .container .container__main {
   width: 990px;
@@ -128,14 +153,33 @@ body {
   border: 5px solid #0D2044;
   border-radius: 13px;
 }
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+
+
+
+/*Seejn's.........................*/
+.sidebar {
+  height: 100vh;
+  width: 55px;
+  background: #0D1840;
+  padding: 20px 0 5px 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
-  left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      position: fixed;
+        left: 0;
+  top:0;
 }
 
 .sidebar svg {
